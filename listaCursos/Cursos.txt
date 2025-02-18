@@ -1,0 +1,1 @@
+[["Curso de Manipulación del DOM desde JavaScript","OpenWebinars","javascript, web development","2025-01-01","https://openwebinars.net/cert/fHih"]]

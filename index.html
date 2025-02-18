@@ -14,7 +14,7 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./Estilos/estilos.css" />
+    <link rel="stylesheet" href="./estilos/estilos.css" />
   </head>
   <body>
     <header>
@@ -86,8 +86,8 @@
           <label for="tecnologia">Tecnologia (lista)</label>
           <input class="form-control mb-2" type="text" id="tecnologia" />
 
-          <label for="fechaInicio">Fecha Inicio</label>
-          <input class="form-control mb-2" type="date" id="fechaInicio" />
+          <label for="fecha">Fecha</label>
+          <input class="form-control mb-2" type="date" id="fecha" />
 
           <label for="enlace">Enlace</label>
           <input class="form-control mb-2" type="text" id="enlace" />
@@ -114,7 +114,46 @@
             <option value="3">C#</option>
           </select>
         </div>
-        <div id="cusos"></div>
+        <div id="cusos">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Nombre del curso:</th>
+                <th scope="col">Escuela/Plataforma</th>
+                <th scope="col">Tecnologia</th>
+                <th scope="col">Fecha</th>
+                <th scope="col">Enlace</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr id="nombreCurso">
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr id="escuelaCurso">
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr id="tecnologiaCurso">
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+              <tr id="fechaCurso">
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+              <tr id="enlaceCurso">
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </main>
     <script
